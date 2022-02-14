@@ -1,0 +1,22 @@
+<div class="card card-list">
+    <div class="card-item" *ngFor="let item of wizards">
+        <div class="card-image">
+            <img src={{item.image}} alt="">
+        </div>
+        <div class="card-content">
+            <h2 class="card-name">{{item.name}}</h2>
+            <p class="card-house">Gryffindor House</p>
+            <div class="card-social">
+                <a class="card-social__item"><i class="fa-brands fa-facebook-f"></i></a>
+                <a class="card-social__item"><i class="fa-brands fa-youtube"></i></a>
+                <a class="card-social__item"><i class="fa-brands fa-github"></i></a>
+                <a class="card-social__item"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <div class="card-btn">
+                <button class="btn-contact">
+          Contact me
+        </button>
+            </div>
+        </div>
+    </div>
+</div>

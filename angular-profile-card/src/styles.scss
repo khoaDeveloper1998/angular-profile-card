@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("../src/app/app.component.scss");
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(45deg, #00853e, #50c878);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif !important;
+}
